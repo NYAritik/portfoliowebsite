@@ -1,0 +1,366 @@
+/*
+Define styles for body element
+*/
+body {
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+color: #333;
+background-color: #f2f2f2;
+padding: 0;
+margin: 0;
+}
+
+/*
+Define styles for header element
+*/
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+}
+
+/*
+Define styles for header h1 element
+*/
+header h1 {
+margin: 0;
+font-size: 36px;
+text-align: center;
+}
+
+/*
+Define styles for navigation menu
+*/
+nav {
+background-color: #fff;
+color: #333;
+padding: 10px 20px;
+}
+
+/*
+Define styles for navigation menu links
+*/
+nav a {
+color: #333;
+text-decoration: none;
+margin-right: 20px;
+}
+
+/*
+Define styles for main section
+*/
+main {
+background-color: #fff;
+color: #333;
+padding: 20px;
+}
+
+/*
+Define styles for section h2 element
+*/
+main h2 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+/*
+Define styles for section p element
+*/
+main p {
+margin-bottom: 20px;
+}
+
+/*
+Define styles for footer element
+*/
+footer {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+text-align: center;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  #header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #header h1{
+    margin: 0;
+  }
+  
+  #header a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #header a:hover{
+    color: #ddd;
+  }
+  
+  #about{
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #about h2{
+    margin: 0;
+  }
+  
+  #skills{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #skills h2{
+    margin: 0;
+    text-align: center;
+  }
+  
+  #skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #skills li{
+    margin: 10px 0;
+  }
+  
+  #contact{
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #contact h2{
+    margin: 0;
+  }
+  
+  #contact form{
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  #contact label{
+    display: block;
+    margin: 10px 0;
+  }
+  
+  #contact input[type="text"], #contact input[type="email"], #contact textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  #contact input[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  #contact input[type="submit"]:hover{
+    background-color: #fff;
+    color: #333;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#navigation {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+#navigation a:hover {
+    background-color: #555;
+}
+
+#about {
+    padding: 20px;
+}
+
+#skills {
+    padding: 20px;
+}
+
+#skills h2 {
+    margin-bottom: 20px;
+}
+
+#skills .skill {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+#projects h2 {
+    margin-bottom: 20px;
+}
+
+#projects .project {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#contact {
+    padding: 20px;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact form {
+    margin-bottom: 20px;
+}
+
+#contact form input[type="text"], #contact form input[type="email"], #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    border: none;
+    resize: vertical;
+}
+
+#contact form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+#contact form input[type="submit"]:hover {
+    background-color: #555;
+}
+body {
+  background-color: #F5F5F5;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.header p {
+  font-size: 18px;
+  color: #777;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.skills h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.skills p {
+  font-size: 18px;
+  color: #777;
+}
+
+.skills .skill {
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.projects h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.projects .project {
+  width: calc(33.33% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer p {
+  font-size: 18px;
+  color: #777;
+}
+  
